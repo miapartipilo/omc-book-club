@@ -5,7 +5,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>OMC Book Club</title>
-<link rel="manifest" href="manifest.json">
 <style>
     body { font-family: 'Arial', sans-serif; background-color: #f8f4f0; color: #333; margin: 0; padding: 0; }
     header { background-color: #e2d8cf; padding: 20px; text-align: center; font-size: 1.8em; }
@@ -13,6 +12,7 @@
     nav button { background: none; border: none; font-size: 1em; cursor: pointer; }
     .screen { display: none; padding: 20px; }
     .active { display: block; }
+    img.book-cover { max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px; }
 </style>
 </head>
 <body>
@@ -27,9 +27,10 @@
 
 <div id="home" class="screen active">
     <h2>Current Book</h2>
-    <p><strong>Title:</strong> The Only One Left</p>
-    <p><strong>Author:</strong> Riley Sager</p>
-    <p><strong>Description:</strong> A chilling gothic mystery set in a cliffside mansion where secrets from the past refuse to stay buried.</p>
+    <img src="/mnt/data/EEB48B5A-5755-4541-ABD4-F471A3D842C5.jpeg" alt="Don't Let Him In Cover" class="book-cover">
+    <p><strong>Title:</strong> Don’t Let Him In</p>
+    <p><strong>Author:</strong> Lisa Jewell</p>
+    <p><strong>Description:</strong> A gripping thriller about secrets behind a mysterious blue door, perfect for fans of dark domestic suspense.</p>
 </div>
 
 <div id="discussion" class="screen">
@@ -42,9 +43,9 @@
 <div id="books" class="screen">
     <h2>Past Books</h2>
     <ul>
+        <li>The Only One Left - Riley Sager</li>
         <li>Beach Read - Emily Henry</li>
         <li>The Seven Husbands of Evelyn Hugo - Taylor Jenkins Reid</li>
-        <li>Tomorrow, and Tomorrow, and Tomorrow - Gabrielle Zevin</li>
     </ul>
 </div>
 
